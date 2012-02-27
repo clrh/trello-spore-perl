@@ -1,0 +1,17 @@
+{
+    "base_url" : "https://api.trello.com/1",
+    "version"  : "0.1",
+    "methods"  : {
+        "boards" : {
+            "path" : "/boards/:id?key=:key&token=:token",
+            "method" : "GET",
+            "required_params" : [
+                "id",
+                "key"
+            ],
+            "optional_params" : [
+                "token"
+            ]
+        }
+    }
+}

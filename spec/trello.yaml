@@ -1,0 +1,12 @@
+api_base_url: "https://api.trello.com/1/"
+version: 0.1
+methods:
+    board:
+        path: "/:id?key=:key&token=:token&cards=:cards"
+        method: GET
+        required_params:
+            id
+            key
+        optional_params:
+            cards
+            token

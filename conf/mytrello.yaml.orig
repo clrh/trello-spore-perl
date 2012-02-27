@@ -1,0 +1,8 @@
+#call https://api.trello.com/1/member/YOURTRELLOUSERNAME?key=YOURKEY&boards=all&token=YOURTOKEN in a browser to get the boardId yo use- look for: "boards":[{"id":"4f13ee1e","name":".." and use the id
+boardid: ''
+
+# call https://trello.com/1/appKey/generate in a browser to get the "key"
+key: ''
+
+# call https://trello.com/1/connect?key=YOURKEYHERE&name=MyApp&response_type=token in a browser to get the "token"
+token: ''

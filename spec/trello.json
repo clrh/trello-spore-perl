@@ -1,16 +1,21 @@
 {
+    "name" : "Trello-Perl",
     "base_url" : "https://api.trello.com/1",
+    "formats" : [
+        "json"
+    ],
     "version"  : "0.1",
     "methods"  : {
         "boards" : {
-            "path" : "/boards/:id?key=:key&token=:token",
+            "path" : "/boards/:id?key=:key&token=:token&cards=:cards",
             "method" : "GET",
             "required_params" : [
                 "id",
                 "key"
             ],
             "optional_params" : [
-                "token"
+                "token",
+                "cards"
             ]
         }
     }

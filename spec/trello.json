@@ -2508,6 +2508,13 @@
             "field"
          ]
       }
+   },
+   "name" : "Trello",
+   "author" : [
+      "julian maurice <julian.maurice@biblibre.com>"
+   ],
+   "meta" : {
+      "documentation" : "http://www.trello.com/docs"
    }
 }
 

@@ -17,7 +17,7 @@ my $output = 'trello.json';
 my $verbose = 0;
 
 GetOptions(
-    'output|o' => \$output,
+    'output|o:s' => \$output,
     'verbose|v' => \$verbose,
 );
 

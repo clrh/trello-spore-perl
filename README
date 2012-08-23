@@ -1,2 +1,21 @@
-Trying to query trello with spore in perl
-Goal: doing an exorter for a board
+Trello-spore-perl
+-----------------
+
+Goal: having a trello.json to query http://trello.com boards with SPORE.
+
+- conf
+  - mytrello.yaml.orig
+- html2json.pl
+- README
+- spec
+  - trello.json
+  - trello.yaml (not updated yet - do not use)
+-  trello.pl
+
+How to test:
+- cp mytrello.yaml.orig into mytrello.yaml
+- fill the configuration file
+- launch perl trello.pl
+
+How to update trello.json file:
+$ perl html2json.pl -v -o spec/trello.json
